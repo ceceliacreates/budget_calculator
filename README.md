@@ -1,7 +1,7 @@
 # BudgetBasic
 ## *A Simple Budget Calculator*
 
-This is a budget calculator tool based on the 'Simple Budget Calculator' by Ethan Thompson on [CodePen] (https://codepen.io/ethanthompson/pen/emKmYJ).
+This is a budget calculator tool based on the 'Simple Budget Calculator' by Ethan Thompson on CodePen (https://codepen.io/ethanthompson/pen/emKmYJ).
 
 ### Added features
 * Additional budget input fields (as of 3/2/19)
