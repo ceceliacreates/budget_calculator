@@ -3,6 +3,8 @@
 
 This is a budget calculator tool based on the 'Simple Budget Calculator' by Ethan Thompson on CodePen (https://codepen.io/ethanthompson/pen/emKmYJ).
 
+Hosted on GitHub Pages (https://ceceliacreates.github.io/budget_calculator/)
+
 ### Added features
 * Additional budget input fields (as of 3/2/19)
 * Description and definitions of terms (as of 3/2/19)
