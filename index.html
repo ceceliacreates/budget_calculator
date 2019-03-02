@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class = container-fluid>
+    <div class = "row">
+      <div class = "col-sm-4">
+      <h1>BudgetBasic</h1>
+      <h3>A simple budgeting tool</h3>
+      <h5>Definitions:</h5>
+      <ul>
+        <li>Essential Expenses: Expenses that are necessary and fixed (not easily changed)</li>
+        <li>Discretionary Expenses: Expenses that change from month to month and are extra (fun money!)</li>
+        <li>Utilities: Include internet and cell phone if you consider these essential expenses</li>
+        <li>Restaurants/Bars: Including coffee shops and fast food</li>
+        <li>Shopping: ALL shopping, including personal items like toiletries, gifts for others, clothes, etc.</li>
+        <li> Entertainment: Movies, video games, subscriptions (Spotify, Netflix), concerts, sports events, etc.</li>
+    </div>
+    <div class = "col-sm-3">
+      <form>
+        <div class = "form-group">
+      <p class="form-section">Income</p>
+        <input class="form-control" type="text" id="income" placeholder="Monthly Income"/>
+        </div>
+        <div class = "form-group">
+      <p class="form-section">Essential Expenses</p>
+        <input class ="form-control" type="text" id="rent" placeholder="Rent"/>
+        <input class = "form-control" type="text" id="groceries" placeholder="Groceries"/>
+        <input class = "form-control" type="text" id="utilities" placeholder="Utilities"/>
+        <input class = "form-control" type="text" id="insurance" placeholder="Insurance"/>
+        <input class = "form-control" type="text" id="auto" placeholder="Auto/Transportation"/>
+        <input class = "form-control" type="text" id="care" placeholder="Child/Pet/Dependent Care"/>
+        </div>
+        <div class = "form-group">
+       <p class="form-section"> Discretionary Expenses</p>
+         <input class = "form-control" type="text" id="food" placeholder="Restaurants/Bars"/>
+         <input class = "form-control" type="text" id="shopping" placeholder="Shopping"/>
+         <input class = "form-control" type="text" id="entertainment" placeholder="Entertainment"/>
+        </div>
+      </form>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+    <div class = "col-sm-5">
+      <h1>Results</h1>
+      <p class = "results-data">Click on Submit to see your budget results</p>
+    </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
