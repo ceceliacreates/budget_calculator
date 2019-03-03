@@ -2,12 +2,17 @@ form {
     margin: 10px 0px 10px 0px;
 }
 
+label {
+  margin: 5px 0px 0px 0px;
+}
 input {
-    margin: 5px;
+    
   }
 
 .form-section {
     font-weight: bold;
+    text-decoration: underline;
+    font-size: larger;
   }
   
 h3 {
