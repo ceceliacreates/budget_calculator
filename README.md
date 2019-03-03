@@ -11,11 +11,11 @@ Hosted on GitHub Pages (https://ceceliacreates.github.io/budget_calculator/)
 * Differentiate between essential and discretionary expenses (as of 3/2/19)
 * Different results based on if overspending is essential or discretionary (as of 3/2/19)
 * Different results based on if savings rate of 20% is being met (as of 3/2/19)
+* Change from placeholder to labels on form for increased accesibility (as of 3/3/19)
 
 ### Future features
 * User can insert preferred savings rate
 * Links to applicable resources depending on results
 * Additional CSS styling
-* Change from placeholder to labels on form for increased accesibility 
 * Warning when budget category exceeds national average spending
 * Increased form functionality
