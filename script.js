@@ -6,6 +6,8 @@ $("button").click(gather)
 function gather() {
 
 /* collects essential income data from forms and assigns to variables, also replaces any non-number characters and parses to integer*/
+  rate = document.getElementById("rate").value;
+  rate = parseFloat(rate);
   income = document.getElementById("income").value;
   income = income.replace(/\D/g,'');
   income = parseInt(income);
@@ -51,8 +53,8 @@ function gather() {
 /*calculates amount left over after expenses*/
   result = income - essential - discretionary;
 
-/*calculates desired savings amount at 20 percent of income*/
-  savings = (income * 0.20);
+/*calculates desired savings amount based on entered rate of savings*/
+  savings = (income * rate);
 
 /*removes instructions from results div to prepare for results*/
   $(".results-data").empty();
