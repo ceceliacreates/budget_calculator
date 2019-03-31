@@ -13,9 +13,9 @@ Hosted on GitHub Pages (https://ceceliacreates.github.io/budget_calculator/)
 * Different results based on if savings rate of 20% is being met (as of 3/2/19)
 * Change from placeholder to labels on form for increased accesibility (as of 3/3/19)
 * User can insert preferred savings rate (as of 3/11/19)
+* Additional CSS styling (as of 3/30/19)
 
 ### Future features
 * Links to applicable resources depending on results
-* Additional CSS styling
 * Warning when budget category exceeds national average spending
 * Increased form functionality
